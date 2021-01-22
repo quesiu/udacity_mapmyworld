@@ -72,7 +72,9 @@ rtabmap-databaseViewer ~/.ros/rtabmap.db
 ```
 
 ## Examples
+1) Many global loop closures but poor results in drawing the map
 ![Many global loop closures, poor results](https://github.com/quesiu/udacity_mapmyworld/blob/main/ManyGlobalLoopClosuresBadResults.png)
+2) Few global loop closures but good results in drawing the map
 ![Few global loop closures, good results](https://github.com/quesiu/udacity_mapmyworld/blob/main/FewGlobalLoopClosuresGoodResults.png)
 
 ## Support
