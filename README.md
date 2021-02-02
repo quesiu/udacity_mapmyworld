@@ -63,7 +63,8 @@ rtabmap-databaseViewer ~/.ros/rtabmap.db
 As the rtabmap.db file is too heavy to be uploaded directly to Github, please unzip it and move it if you want to vizualize it:
 ```
 cd /<YOUR_LOCAL_PATH>/udacity_mapmyworld/
-tar -xzf rtabmap.db.tar.gz
+cat rtabmap.db.tar.bz2.parta* > map.tar.bz2
+tar -xf map.tar.bz2
 cp rtabmap.db.tar.gz /root/.ros/
 ```
 Then, please use the following command to vizualize the content of the file:
